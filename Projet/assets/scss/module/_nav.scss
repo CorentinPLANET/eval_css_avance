@@ -1,21 +1,33 @@
 @use "../abstracts" as *;
 
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
 .bar__nav {
     display: flex;
-    justify-content: space-evenly   ;
+    justify-content: space-evenly;
     padding: 1%;
     height: 5rem;
     background-color: #121110;
     align-items: center;
-    
+
+    @include small {
+        justify-content: space-between;
+        padding: 0 10%;
+    }
+
     &>p {
         font-weight: bold;
-
     }
 
     & * {
         color: #979897;
         text-decoration: none;
+        letter-spacing: 0.1vw;
     }
 
     & span {
@@ -28,6 +40,9 @@
         align-items: center;
         width: 50%;
 
+        @include small {
+            display: none;
+        }
     }
 
     &__icons {
