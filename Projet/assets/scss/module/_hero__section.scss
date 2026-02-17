@@ -1,0 +1,31 @@
+.hero__section {
+position: relative;
+    &__img {
+      width: 100%;
+      aspect-ratio:1.4;
+      object-fit: cover;
+      filter: grayscale(100%);
+    }
+    &__content {
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform:translateX(-50%) translateY(-50%) ;
+        width: 30%;
+
+        &__rectangle {
+            border: #979897;
+            border-radius: 5%;
+            padding: 1rem;
+        }
+
+        &__button {
+            width: 10%;
+        }
+    }
+
+    &__content__bold__title {
+        font-weight: bold;
+    }
+
+}

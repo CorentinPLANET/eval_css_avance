@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/page/index.css">
     <title>Stepforge</title>
 </head>
 
@@ -11,36 +13,50 @@
     <header>
         <nav>
             <div class="bar__nav">
-                <img src="" alt="logo Steaforge">
-                <a href="">ACCUEIL</a href="">
-                <a href="">COLLECTION</a href="">
-                <a href="">À PROPOS</a href="">
-                <a href="">CONTACT</a href="">
-                <img src="" alt="Logo panier">
-                <img src="" alt="Logo menu burger">
+                <p><span>STEP</span>FORGE</p>
+
+                <div class="bar__nav__links">
+                    <a href="#">ACCUEIL</a>
+                    <a href="#">COLLECTION</a>
+                    <a href="#">À PROPOS</a>
+                    <a href="#">CONTACT</a>
+                </div>
+
+                <div class="bar__nav__icons">
+                    <a href="#">
+                        <img src="assets/img/bag-outline.svg" alt="Logo panier">
+                    </a>
+                    <a href="#">
+                        <img src="assets/img/menu-outline.svg" alt="Logo menu burger">
+                    </a>
+                </div>
             </div>
         </nav>
     </header>
 
     <main>
         <div class="hero__section">
-            <p>NOUVELLE COLLECTION 2026</p>
-            <p>WALK THE FUTURE.</p>
-            <p>Des sneakers premium conçues pour ceux qui donnent le rythme. Confort inégalé, design audacieux, attitude
-                streetwear.</p>
+            <img class="hero__section__img" src="assets/img/chaussures_hero_section.jpg" alt="Chaussures">
+            <div class="hero__section__content">
+                <p class="hero__section__content__rectangle">NOUVELLE COLLECTION 2026</p>
+                <p class="hero__section__content__bold__title">WALK THE FUTURE.</p>
+                <p>Des sneakers premium conçues pour ceux qui donnent le rythme. Confort inégalé, design audacieux,
+                    attitude
+                    streetwear.</p>
 
-            <div class="hero__section__button">
-                <button>ACHETER</button>
-                <img src="" alt="fleche_droit">
-                <button>NOTRE HISTOIRE</button>
-            </div>
-
-            <a href="#">
-                <div class="hero__section__defiler">
-                    <p>DÉFILER</p>
-                    <img src="" alt="fleche_vers_le_bas">
+                <div class="hero__section__content__button">
+                    <button>ACHETER</button>
+                    <img src="assets/img/arrow-forward-outline.svg" alt="fleche_droit">
+                    <button>NOTRE HISTOIRE</button>
                 </div>
-            </a>
+
+                <a href="#">
+                    <div class="hero__section__content__defiler">
+                        <p>DÉFILER</p>
+                        <img src="" alt="fleche_vers_le_bas">
+                    </div>
+                </a>
+            </div>
         </div>
 
         <div class="nouveaute__section">
@@ -56,12 +72,72 @@
                 <h2>NOUVEAUTÉS</h2>
                 <div class="nouveaute__section__main__cardContainer">
                     <div class="nouveaute__section__main__cardContainer__card">
-                        <p class="nouveaute__section__main__cardContainer__card__tags"></p>
-                        div
+                        <div class="nouveaute__section__main__cardContainer__card__img">
+                            <img class="nouveaute__section__main__cardContainer__card__img__img"
+                                src="assets/img/Blaze_High_OG.jpg" alt="">
+                            <p class="nouveaute__section__main__cardContainer__card__img__tags"></p>
+                            <button class="nouveaute__section__main__cardContainer__card____img__liked"></button>
+                        </div>
+                        <p class="nouveaute__section__main__cardContainer__card__title">STEPFORGE</p>
+                        <p class="nouveaute__section__main__cardContainer__card__name">Stealth Low V2</p>
+                        <p class="nouveaute__section__main__cardContainer__card__price">169 €</p>
+                        <button class="nouveaute__section__main__cardContainer__card__button">AJOUTER AU PANIER</button>
                     </div>
                 </div>
             </div>
         </div>
+
+        <div class="difference__stepforge">
+            <p class="difference__stepforge__small__title">POURQUOI NOUS CHOISIR</p>
+            <p class="difference__stepforge__bold__title">LA DIFFÉRENCE STEPFORGE</p>
+            <div class="difference__stepforge__step__section">
+                <img src="" alt="Logo fusée">
+                <p class="difference__stepforge__small__bold__title">LIVRAISON RAPIDE</p>
+                <p>Livraison express gratuite sur toutes les commandes. Recevez vos sneakers sous 48h, partout en France
+                </p>
+            </div>
+            <div class="difference__stepforge__step__section">
+                <img src="" alt="Logo validé">
+                <p class="difference__stepforge__small__bold__title">100% AUTHENTIQUE</p>
+                <p>Chaque paire est vérifiée par notre équipe d'experts. Authenticité garantie ou remboursé, sans
+                    discussion.
+                </p>
+            </div>
+            <div class="difference__stepforge__step__section">
+                <img src="" alt="Logo retour">
+                <p class="difference__stepforge__small__bold__title">LIVRAISON</p>
+                <p>Pas la bonne taille ? Retournez toute paire non portée sous 30 jours pour un remboursement intégral.
+                    Simple et sans tracas</p>
+            </div>
+        </div>
+
+        <div class="coup__de__coeur">
+            <div class="coup__de__coeur__image">
+                <img src="assets/img/phantom runner x 2.jpg" alt="Phantom Runner X">
+            </div>
+            <div class="coup__de__coeur__phantom__runner_x">
+                <p>COUP DE COEUR</p>
+                <p>PHANTOM RUNNER X</p>
+                <p>189,00€</p>
+                <p>Conçue pour la rue. La Phantom Runner X combine une tige légère en mesh avec notre technologie
+                    d'amorti ForgeStep pour un confort toute la journée, sans compromis sur le style.</p>
+            </div>
+            <div class="coup__de__coeur__informations">
+                <p class="coup__de__coeur__small_title">MATÉRIAU</p>
+                <p>Mesh tricoté</p>
+                <p class="coup__de__coeur__small_title">SEMELLE</p>
+                <p>ForgeStep™</p>
+                <p class="coup__de__coeur__small_title">POIDS</p>
+                <p>285g</p>
+                <p class="coup__de__coeur__small_title">TAILLES</p>
+                <p>36-48</p>
+            </div>
+            <div class="coup__de__coeur__button">
+                <button>AJOUTER AU PANIER</button>
+                <img src="" alt="image_panier">
+            </div>
+        </div>
+
     </main>
     <footer></footer>
 </body>
